@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+/* */
+
+/* limpando o css padrão do html*/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+/*definindo cores padrao para meu site */
+
+:root {
+  --primeira-cor: #fff;
+  --segunda-cor: #390F8F;
+}
+
+/*Definindo a fonte para o body e colondo o bacground da site */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

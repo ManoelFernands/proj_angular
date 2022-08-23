@@ -1,1 +1,23 @@
-<p>navbar works!</p>
+<!--Barra de navegação criada com bootstrap-->
+
+<nav class="navbar navbar-expand-lg navbar-dark" id="background">
+  <div class="container-fluid">
+    <a class="navbar-brand " routerLink=""><img class="logo" height="70px" width="70px" src="../../../assets/eu.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto d-flex">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="formacao" routerLinkActive="active">Formação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contato" routerLinkActive="active">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+/*Importando font externa para o navbar*/
+a {
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*alterando o backgorund padrão do navbar do bootstrap*/
+#background {
+  background-color: var(--segunda-cor);
+}
+
+/*colocando borda na imagem da navbar*/
+.logo{
+  border-radius: 35px;
+  border: 3px solid purple;
+}

@@ -1,0 +1,37 @@
+/*Alteracões no design do roda pé da pagina*/
+
+.footer {
+  overflow: hidden;
+  position: sticky;
+  top: 100%;
+  background-color: var(--segunda-cor);
+  padding: 10px 10px;
+}
+
+h1 {
+  color: var(--primeira-cor);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  color:  var(--primeira-cor);
+  font-size: 12px;
+}
+
+a {
+  color: var(--primeira-cor);
+  text-decoration: none;
+  padding: 0px 5px;
+  font-size: 18px;
+}
+
+a:hover{
+  color: rgb(137, 55, 230);
+}
+
+/*alterando os icones*/
+i {
+  padding: 10px;
+  font-size: 20px;
+}

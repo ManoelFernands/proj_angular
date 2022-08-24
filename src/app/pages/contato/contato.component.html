@@ -16,6 +16,23 @@
 
 
 
-    <input class="enviar" type="submit" value="Enviar">
+    <input class="enviar" id="send" type="submit" value="Enviar">
   </form>
 </div>
+<script defer>
+
+    const bnt = document.querySelector ("#send");
+
+    btn.addEventListener("click", function(e) {
+
+      e.preventDefault();
+
+      const name = document.querySelector("#name");
+
+      const value = name.value;
+
+      console.log(value);
+    })
+
+
+</script>
